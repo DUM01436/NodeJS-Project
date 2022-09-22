@@ -1,0 +1,223 @@
+#hero {
+    font-family: 'Montserrat', sans-serif;
+    height: 110vh;
+    margin-top: -50px;
+    background: url(../images/hero__background.jpg) center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    clip-path: polygon(0 0, 100% 0, 100% 95%, 70% 100%, 0 90%);
+}
+
+#hero * {
+    margin: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+#hero h1 {
+    font-size: 56px;
+    margin-top: -100px;
+}
+
+#hero p {
+    width: 80vw;
+}
+
+#hero a {
+    margin: 25px;
+    font-weight: 500;
+}
+
+#logo__section {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo__section img {
+    height: 60px;
+    margin: 30px;
+    filter: saturate(0);
+}
+
+#logo__section img:nth-child(1) {
+    height: 85px;
+}
+
+#logo__section img:nth-child(5) {
+    height: 65px;
+}
+
+#about__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+    padding-right: 0;
+}
+
+#about__section img {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);
+}
+
+#products__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 25px;
+}
+
+#products__section > h3::before {
+    content: "";
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    height: 3px;
+    width: 40%;
+    border-radius: 10px;
+    background: #080;
+}
+
+#products__section > h3 {
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+#products__section .product__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#products__section .product__container .product {
+    width: 265px;
+    margin: 25px;
+    border: 1px solid #ddd;
+}
+
+#products__section .product__container .product div:first-child {
+    position: relative;
+    height: 275px;
+    width: 100%;
+}
+
+#products__section .product__container .product div:first-child img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+#products__section .product__container .product div:first-child a {
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+#products__section .product__container .product div:last-child {
+    height: 140px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#products__section .product__container .product div:last-child h3 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#products__section .product__container .product div:last-child p:nth-child(2) {
+    font-weight: 600;
+    font-size: 26px;
+}
+
+#products__section .product__container .product div:last-child p:nth-child(3) {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#review__section::before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 350px;
+    width: 150%;
+    background: #ffff99;
+    transform: rotate(-10deg);
+    z-index: -10;
+}
+
+#review__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    overflow-x: hidden;
+}
+
+#review__section .review {
+    height: 500px;
+    width: 400px;
+    background: #fff;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 25px;
+}
+
+#review__section .review .message img {
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+#review__section .review .reviewer {
+    border-top: 2px solid #ddd;
+    padding-top: 25px;
+}
+
+#review__section .review .reviewer h3 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+#review__section .review .reviewer p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#review__section .review .reviewer * {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+
+#cta__box {
+    min-height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

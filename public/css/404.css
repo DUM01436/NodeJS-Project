@@ -1,0 +1,35 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+body * {
+    margin: 10px;
+}
+
+h1 {
+    line-height: 2;
+    font-size: 100px;
+    font-weight: 900;
+    background: url(../images/404__background.jpg) no-repeat center/cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    line-height: 1;
+    font-size: 25px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+p {
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    width: 50vw;
+}

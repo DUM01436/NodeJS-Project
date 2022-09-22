@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates', sans-serif;
+    transition: 0.25s;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 50px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.info-head {
+    font-size: 16px;
+    font-weight: 600;
+    color: #080;
+    margin-bottom: 15px;
+}
+
+.head {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+p {
+    line-height: 2;
+    font-size: 18px;
+}
+
+.logo__ribbion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.logo__ribbion * {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    margin: 10px;
+}
+
+.logo__ribbion img {
+    height: 90px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2.5px);
+    box-shadow: 0px 1px 3px 0px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar * {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 10px;
+}
+
+.navbar ul li a.active {
+    color: #ddd;
+    font-weight: 400;
+}
+
+.navbar ul li a:hover {
+    color: #ddd;
+}
+
+.navbar ul.nav__links li a {
+    text-transform: uppercase;
+}
+
+.cta {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    background: #080;
+    padding: 12px 22px;
+    border-radius: 50px;
+}
+
+.cta:hover {
+    padding: 12px 25px;
+}
+
+.footer {
+    padding: 50px 30px;
+    border-top: 1px solid #ddd;
+}
+
+.footer * {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    text-decoration: none;
+    list-style: none;
+    color: #999;
+}
+
+.footer h3 {
+    font-size: 15px;
+    font-weight: 500;
+    color: #2f2f2f;
+    margin-bottom: 15px;
+}
+
+.footer li {
+    margin: 5px 0;
+}
+
+.footer .footer__top {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer .footer__top div {
+    flex: 1;
+}
+
+.footer .footer__top .left img {
+    height: 90px;
+    margin: -5px 0 20px -5px;
+}
+
+.footer .footer__top .left ul li:nth-child(3) {
+    margin-top: 21px;
+}
+
+.footer .footer__top .left ul li a {
+    background: #eee;
+    color: #2f2f2f;
+    padding: 7px 14px;
+    border-radius: 50px;
+}
+
+.footer .middle, .footer .right {
+    margin-top: 28px;
+}
+
+.footer .footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
